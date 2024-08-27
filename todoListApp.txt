@@ -1,0 +1,15 @@
+new Task Todo list
+
+Todo List yaradacaqsiniz Todo elave edin 
+hissesine kliklediyinizde listeye add olunmalidi butun todolari temizle hissene 
+klikledyimizde butun todolar silinmelidi pen(qelem) hissesine kliklediyimizde ise 
+tododaki contenti deyisdireceyimiz bir pencere (modal) yarada bilersiz elave olaraq
+ x duymesini klilklediyimizde todo silinmelidi todolist axtarma hissesnide hansi
+ todolistimizi axtaririqsa onu neticede vermelidi elave olaraq hansi todolistimiz 
+eger tamamlanibsa (yeni o listdeki todo artiq edilibse) uzerinde kliklediyimizde 
+backgroundu yasil olmali ve content sozun 
+uzerinde xett cekilmelidi 1 ci gune qeder bu taski etmeyinize zamanininiz var , basa 
+dusmediyiniz bir hisse olsa sorusun , task sertlerini diqqetle oxuyun ugurlar !
+
+QEYD: todolariniz sehife refresh oldugunda, yeni komp yanib sonduyunde silinmemelidi
+bunun ucun localstorageden isdifade ede bilersiz. 
