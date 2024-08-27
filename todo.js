@@ -39,17 +39,18 @@ li.forEach((item) => {
     item.style.fontStyle = "italic";
   });
 });
-
 searching.addEventListener("submit", getFind)
-function getFind(e){
+function getFind(e) {
   e.preventDefault()
-  if(searching.value == data.includes()){
-    newData = []
-    newData.push(localStorage.getItem())
+  const searchTerm = searching.value.trim()
+  if (data.includes(searchTerm)) {
+    const newData = []
+    newData.push(searchTerm)
     addingOnList(newData)
   }
   searching.value = ""
 }
+
 
 function getDelete(index) {
   data.splice(index, 1);
@@ -61,4 +62,3 @@ document.getElementById("todoClearButton").addEventListener("click", () => {
   data = [];
   addingOnList(data)
 })
-
