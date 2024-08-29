@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./todo.css">
 
     <title>Todo List Projesi</title>
 </head>
 
 <body>
-    
     <div class="container">
         <div class="row">
             <div class="card w-100 mt-3">
@@ -31,14 +34,18 @@
                 </div>
 
                 <hr />
-                
+                <div class="static">
+                    <span>Complated :</span>
+                    <span class="completed"></span>0<span>/</span><span class="general">0</span>
+                </div>
+                <hr>
                 <div class="card-body">
                     <h5 class="card-title">Todo Listesi</h5>
                     <form name="form2" id="todoListForm">
                         <input id="todoSearch" type="text" class="form-control mt-3" placeholder="Todo Arayınız">
                         <hr />
                     </form>
-
+                    <form action="#" id="modal-special"></form>
                     <ul class="list-group">
                     </ul>
 
@@ -47,8 +54,6 @@
             </div>
         </div>
     </div>
-
-    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
