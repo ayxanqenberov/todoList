@@ -1,11 +1,12 @@
 #modalDiv{
     position: relative;
     height: 150px;
-    width: 600px;
+    width: 50%;
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
+    margin: 10px;
     gap: 15px;
     border-radius: 5px;
     border: 1px solid black;
@@ -58,7 +59,8 @@
     color: red;
 }
 .static{
+    width: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }

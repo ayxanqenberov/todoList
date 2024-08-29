@@ -45,9 +45,8 @@ function toDoListVisible() {
 
 
 // tamamlamaq ucun
-function getComplete(item) {
-  item.style.color = "red"
-  toDoListVisible()
+function getComplete(){
+  
 }
 // elave edilen bir todo'nu silmek ucun
 function removeItem(index) {
